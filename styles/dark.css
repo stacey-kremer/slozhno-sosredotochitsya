@@ -1,12 +1,31 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --primary-color: #FF0070;
+  --primary-heading-color: #DB00FF;
+  --primary-decorated-color: #000028;
+  --primary-link-color: #FF0070;
+  --primary-text-color: #F1B2CE;
+  --primary-caption-color: rgba(255, 0, 112);
+  --primary-button-hover-color: #FF007066;
+  --primary-menu-color: #FF0070;
+  --primary-rec-color: #FF0070;
+  --primary-corner-color: #FF0070;
+
+  --primary-cover-image: url(../images/cover-image.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --primary-color: #FF0070;
+  --primary-heading-color: #DB00FF;
+  --primary-decorated-color: #000028;
+  --primary-link-color: #FF0070;
+  --primary-text-color: #F1B2CE;
+  --primary-caption-color: rgba(255, 0, 112);
+  --primary-button-hover-color: #FF007066;
+  --primary-menu-color: #FF0070;
+  --primary-rec-color: #FF0070;
+  --primary-corner-color: #FF0070;
+
+  --primary-cover-image: url(../images/cover-image.png);
+  }
 }

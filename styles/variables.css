@@ -1,4 +1,26 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --primary-color: #FF0070;
+  --primary-heading-color: #DB00FF;
+  --primary-link-color: #FF0070;
+  --primary-decorated-color: #000028;
+  --primary-text-color: #F1B2CE;
+  --primary-caption-color: rgba(255, 0, 112);
+  --primary-button-hover-color: #FF007066;
+  --primary-menu-color: #FF0070;
+  --primary-rec-color: #FF0070;
+  --primary-corner-color: #FF0070;
+
+  --primary-cover-image: url(../images/cover-image.png);
+
+  --primary-font-size: 18px;
+  --primary-header-font-size: 157px;
+
+  --primary-font-weight: 400;
+  --primary-font-weight-bold: 700;
+
+  --primary-min-gap: 10px;
+  --primary-max-gap: 20px;
+
+  --primary-header-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --primary-header-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
