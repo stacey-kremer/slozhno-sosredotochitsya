@@ -1,32 +1,40 @@
 .page.theme_light { 
-  --primary-color: #FFC2E6;
-  --primary-heading-color: #FF8DCB;
+  --primary-background-color: #fff1f7;
+  --primary-color: #ff8dcb;
+  --primary-heading-color: #ffc2e6;
+  --primary-shadow-color: #ff0070;
   --primary-decorated-color: #353430;
-  --primary-link-color: #FF8DCB;
+  --primary-link-color: #ff8dcb;
   --primary-text-color: #353430;
   --primary-caption-color: rgba(53, 52, 48);
-  --primary-button-hover-color: #32312D66;
+  --primary-button-hover-color: #32312d66;
   --primary-menu-color: #353430;
-  --primary-rec-color: transparent;
   --primary-corner-color: #353430;
-
   --primary-cover-image: url(../images/cover-image-light.png);
+
+  .header_recording-sign {
+    display: none;
+  }
+
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --primary-color: #FFC2E6;
-    --primary-heading-color: #FF8DCB;
-    --primary-link-color: #FF8DCB;
+    --primary-background-color: #fff1f7;
+    --primary-color: #ff8dcb;
+    --primary-heading-color: #ffc2e6;
+    --primary-shadow-color: #ff0070;
     --primary-decorated-color: #353430;
+    --primary-link-color: #ff8dcb;
     --primary-text-color: #353430;
     --primary-caption-color: rgba(53, 52, 48);
-    --primary-button-hover-color: #32312D66;
+    --primary-button-hover-color: #32312d66;
     --primary-menu-color: #353430;
-    --primary-rec-color: transparent;
     --primary-corner-color: #353430;
-
     --primary-cover-image: url(../images/cover-image-light.png);
+
+    .header_recording-sign {
+      display: none;
+    }
   }
 }
-

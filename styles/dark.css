@@ -1,31 +1,49 @@
 .page.theme_dark {
-  --primary-color: #FF0070;
-  --primary-heading-color: #DB00FF;
+  --primary-background-color: #000028;
+  --primary-color: #ff0070;
+  --primary-heading-color: #db00ff;
+  --primary-shadow-color: #ff0070;
   --primary-decorated-color: #000028;
-  --primary-link-color: #FF0070;
-  --primary-text-color: #F1B2CE;
+  --primary-link-color: #ff0070;
+  --primary-text-color: #f1b2ce;
   --primary-caption-color: rgba(255, 0, 112);
-  --primary-button-hover-color: #FF007066;
-  --primary-menu-color: #FF0070;
-  --primary-rec-color: #FF0070;
-  --primary-corner-color: #FF0070;
+  --primary-button-hover-color: #ff007066;
+  --primary-menu-color: #ff0070;
+  --primary-rec-color: #ff0070;
+  --primary-corner-color: #ff0070;
+  --primary-cover-image: url(../images/cover-image-dark.png);
 
-  --primary-cover-image: url(../images/cover-image.png);
+  .header_recording-sign {
+    display: flex;
+  }
+
+  .header_recording-sign::after {
+    display: block;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --primary-color: #FF0070;
-  --primary-heading-color: #DB00FF;
-  --primary-decorated-color: #000028;
-  --primary-link-color: #FF0070;
-  --primary-text-color: #F1B2CE;
-  --primary-caption-color: rgba(255, 0, 112);
-  --primary-button-hover-color: #FF007066;
-  --primary-menu-color: #FF0070;
-  --primary-rec-color: #FF0070;
-  --primary-corner-color: #FF0070;
+    --primary-background-color: #000028;
+    --primary-color: #ff0070;
+    --primary-heading-color: #db00ff;
+    --primary-shadow-color: #ff0070;
+    --primary-decorated-color: #000028;
+    --primary-link-color: #ff0070;
+    --primary-text-color: #f1b2ce;
+    --primary-caption-color: rgba(255, 0, 112);
+    --primary-button-hover-color: #ff007066;
+    --primary-menu-color: #ff0070;
+    --primary-rec-color: #ff0070;
+    --primary-corner-color: #ff0070;
+    --primary-cover-image: url(../images/cover-image-dark.png);
 
-  --primary-cover-image: url(../images/cover-image.png);
+    .header_recording-sign {
+      display: flex;
+    }
+
+    .header_recording-sign::after {
+      display: block;
+    }
   }
 }
