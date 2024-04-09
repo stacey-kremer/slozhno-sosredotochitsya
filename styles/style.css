@@ -17,7 +17,7 @@
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   min-height: 668px;
-  block-size: calc(100vh - var(--primary-max-gap));
+  block-size: calc(100vh - (2 * var(--primary-max-gap)));
 }
 
 .decorated-zone {
@@ -120,7 +120,7 @@ h1 {
   font-size: var(--primary-header-size-desktop);
   color: var(--primary-heading-color);
   text-shadow: 4px 4px var(--primary-shadow-color);
-  margin: 0 0 7px -20px;
+  margin: 0 0 0 -20px;
 }
 
 .header__intro {
@@ -137,7 +137,7 @@ h1 {
 /* Main */
 
 .main {
-  margin-block-start: 87px;
+  margin-block-start: 80px;
   line-height: 23.4px;
 }
 
@@ -314,7 +314,7 @@ h1 {
   display: grid;
   margin-block-start: 75px;
   min-height: 668px;
-  min-block-size: calc(100vh - var(--primary-max-gap));
+  block-size: calc(100vh - (2 * var(--primary-max-gap)));
 }
 
 .footer_header {
@@ -331,7 +331,7 @@ h1 {
 
 /* Adjustment to devices */
 
-@media (width <= 475px) {
+@media (width <= 490px) {
   .page {
     padding: 10px;
   }
